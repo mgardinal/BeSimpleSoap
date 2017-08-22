@@ -206,7 +206,7 @@ class SoapWebServiceController extends Controller
     /**
      * @return \BeSimple\SoapBundle\Soap\SoapRequest
      */
-    protected function getRequest()
+    public function getRequest()
     {
         return $this->soapRequest;
     }
